@@ -1,0 +1,359 @@
+House_1.csv:
+  descriptions:
+    - Aggregate
+    - Fridge
+    - Chest Freezer
+    - Upright Freezer
+    - Tumble Dryer
+    - Washing Machine
+    - Dishwasher
+    - Computer Site
+    - Television Site
+    - Electric Heater
+  notes:
+    0: October 2014, numerous light bulbs changed to LEDs.
+    7.a: Desktop Computer
+    7.b: Computer Monitor
+House_2.csv:
+  descriptions:
+    - Aggregate
+    - Fridge-Freezer
+    - Washing Machine
+    - Dishwasher
+    - Television
+    - Microwave
+    - Toaster
+    - Hi-Fi
+    - Kettle
+    - Oven Extractor Fan
+  notes:
+House_3.csv:
+  descriptions:
+    - Aggregate
+    - Toaster
+    - Fridge-Freezer
+    - Freezer
+    - Tumble Dryer
+    - Dishwasher
+    - Washing Machine
+    - Television
+    - Microwave
+    - Kettle
+House_4.csv:
+  descriptions:
+    - Aggregate
+    - Fridge
+    - Freezer
+    - Fridge-Freezer
+    - Washing Machine (1)
+    - Washing Machine (2)
+    - Computer Site
+    - Television Site
+    - Microwave
+    - Kettle
+  notes:
+    6.a: Desktop Computer
+    6.b: Computer Monitor
+    6.c: Scanner
+    6.d: Printer
+    6.e: Router
+    6.: Change in signature 01/02/2015
+    7.a: Television
+    7.b: DVD Player
+    7.c: VHS Player
+    7.: Change in signature 19/12/2014
+House_5.csv:
+  descriptions:
+    - Aggregate
+    - Fridge-Freezer
+    - Tumble Dryer
+    - Washing Machine
+    - Dishwasher
+    - Computer Site
+    - Television Site
+    - Combination Microwave
+    - Kettle
+    - Toaster
+  notes:
+    2.: Dehumidifier added on 21/11/2014
+    5.a: Desktop Computer
+    5.b: Computer Monitor
+    5.c: Printer
+    5.d: Speakers
+    5.: Change in signature 27/01/2015
+    6.a: Television w/DVD Player
+    6.b: Set-top Box
+    6.c: Games Console
+House_6.csv:
+  descriptions:
+    - Aggregate
+    - Freezer (Utility Room)
+    - Washing Machine
+    - Dishwasher
+    - MJY Computer
+    - Television Site
+    - Microwave
+    - Kettle
+    - Toaster
+    - PGM Computer
+  notes:
+    4.a: Desktop Computer
+    4.b: Computer Monitor
+    4.c: Computer Monitor
+    4.d: Printer
+    5.a: Television
+    5.b: Set-top Box
+    5.c: PC
+    5.d: DVD Player
+    9.a: Desktop Computer
+    9.b: Computer Monitor
+    9.c: Printer
+    9.d: Shredder
+House_7.csv:
+  descriptions:
+    - Aggregate
+    - Fridge
+    - Freezer (Garage)
+    - Freezer
+    - Tumble Dryer
+    - Washing Machine
+    - Dishwasher
+    - Television Site
+    - Toaster
+    - Kettle
+  notes:
+    3.: Change in signature 24/11/13
+    6.: Change in signature 20/05/14
+    7.a: Television
+    7.b: Speakers
+    7.c: Telephone
+House_8.csv:
+  descriptions:
+    - Aggregate
+    - Fridge
+    - Freezer
+    - Dryer
+    - Washing Machine
+    - Toaster
+    - Computer
+    - Television Site
+    - Microwave
+    - Kettle
+  notes:
+    1.: Change in Fridge Nov 6th
+    5.a: Toaster
+    5.b: DAB Radio
+    7.a: Television
+    7.b: DVD Player
+    7.c: VHS Player
+    7.d: Sound Bar
+House_9.csv:
+  descriptions:
+    - Aggregate
+    - Fridge-Freezer
+    - Washer Dryer
+    - Washing Machine
+    - Dishwasher
+    - Television Site
+    - Microwave
+    - Kettle
+    - Hi-Fi
+    - Electric Heater
+  notes:
+    5.a: Television
+    5.b: Sky Box
+    5.c: DVD Player
+House_10.csv:
+  descriptions:
+    - Aggregate
+    - Magimix (Blender)
+    - Freezer
+    - Chest Freezer (In Garage)
+    - Fridge-Freezer
+    - Washing Machine
+    - Dishwasher
+    - Television Site
+    - Microwave
+    - Kenwood KMix
+  notes:
+    1.: Changed from Fridge to Blender on 17/06/2014
+    2.: Changed from Freezer to Toaster on 25/06/2014.
+    3.: Post April 2015, included a second Freezer (both located in Garage)
+    4.: Changed from Whirlpool ART 500-9/G/1 to AEG SKZ71800F0 March 2015 (Both Fridge-Freezer)
+    7.a.: TV
+    7.b.: DVD Player
+    7.c.: Set-top Box
+    7.d.: Router
+    7.e.: Network storage External power supply
+    7.f.: Laptop external power supply
+House_11.csv:
+  descriptions:
+    - Aggregate
+    - Fridge
+    - Fridge-Freezer
+    - Washing Machine
+    - Dishwasher
+    - Computer Site
+    - Microwave
+    - Kettle
+    - Router
+    - Hi-Fi
+  notes:
+    0.: Aggregate is affected by Solar Panels.
+    4.: Possible dishwasher replacement
+House_12.csv:
+  descriptions:
+    - Aggregate
+    - Fridge-Freezer
+    - Television Site(Lounge)
+    - Microwave
+    - Kettle
+    - Toaster
+    - Television Site(Bedroom)
+    - Not Used
+    - Not Used
+    - Not Used
+House_13.csv:
+  descriptions:
+    - Aggregate
+    - Television Site
+    - Unknown
+    - Washing Machine
+    - Dishwasher
+    - Tumble Dryer
+    - Television Site
+    - Computer Site
+    - Microwave
+    - Kettle
+  notes:
+    1.a: Television
+    1.b: Xbox
+    1.c: Wii
+    2.: Has a device attached which was not recorded.
+    5.: Signature changes with no mention of devices attached.
+    6.a: Television
+    6.b: Computer
+    6.c: Current Cost
+    7.a: Laptop Dock
+    7.b: Camera System (July-Aug 2014)
+House_15.csv:
+  descriptions:
+    - Aggregate
+    - Fridge-Freezer
+    - Tumble Dryer
+    - Washing Machine
+    - Dishwasher
+    - Computer Site
+    - Television Site
+    - Microwave
+    - Kettle
+    - Toaster
+  notes:
+    5.a: Desktop Computer
+    5.b: Printer
+    6.a: Television
+    6.b: Xbox
+    6.c: Set-top Box
+House_16.csv:
+  descriptions:
+    - Aggregate
+    - Fridge-Freezer (1)
+    - Fridge-Freezer (2)
+    - Electric Heater (1)?
+    - Electric Heater (2)
+    - Washing Machine
+    - Dishwasher
+    - Computer Site
+    - Television Site
+    - Dehumidifier/Heater
+  notes:
+    8.a: Television
+    8.b: DVD/Blue-ray Player
+    8.c: Wii
+    8.d: Speakers
+House_17.csv:
+  descriptions:
+    - Aggregate
+    - Freezer (Garage)
+    - Fridge-Freezer
+    - Tumble Dryer (Garage)
+    - Washing Machine
+    - Computer Site
+    - Television Site
+    - Microwave
+    - Kettle
+    - Plug Site (Bedroom)
+  notes:
+    1.: Was replaced 1 month before recording stopped with smaller capacity Freezer.
+    2.: Was replaced mid May 2015.
+    5.a: Desktop
+    5.b: Computer Monitor
+    5.c: Computer Monitor
+    5.d: Printer
+    8.a: Kettle
+    8.b: Toaster & Misc (Occasionally plugged in)
+    9.a: Television
+    9.b: Laptop
+    9.c: Hair Dryer
+    9.d: Phone Charger
+House_18.csv:
+  descriptions:
+    - Aggregate
+    - Fridge(garage)
+    - Freezer(garage)
+    - Fridge-Freezer
+    - Washer Dryer(garage)
+    - Washing Machine
+    - Dishwasher
+    - Desktop Computer
+    - Television Site
+    - Microwave
+  notes:
+    8.a: Television
+    8.b: DVD Player
+    8.c: Sky Box
+    8.d: Speakers
+    8.e: Lamp
+    8.f: HiFi
+House_19.csv:
+  descriptions:
+    - Aggregate
+    - Fridge & Freezer
+    - Washing Machine
+    - Television Site
+    - Microwave
+    - Kettle
+    - Toaster
+    - Bread-maker
+    - Lamp (80Watts)
+    - Hi-Fi
+  notes:
+    1.: This plug has a fridge AND a freezer attached on the same IAM
+    3.a: Television
+    3.b: DVD Player
+House_20.csv:
+  descriptions:
+    - Aggregate
+    - Fridge
+    - Freezer
+    - Tumble Dryer
+    - Washing Machine
+    - Dishwasher
+    - Computer Site
+    - Television Site
+    - Microwave
+    - Kettle
+House_21.csv:
+  descriptions:
+    - Aggregate
+    - Fridge-Freezer
+    - Tumble Dryer
+    - Washing Machine
+    - Dishwasher
+    - Food Mixer
+    - Television
+    - Kettle/Toaster
+    - Vivarium
+    - Pond Pump
+  notes:
+    0.: House 21 Aggregate is affected by Solar Panels.

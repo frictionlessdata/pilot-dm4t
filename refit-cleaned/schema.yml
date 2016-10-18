@@ -1,0 +1,25 @@
+- name: Time
+  type: datetime
+  format: "fmt:%Y-%m-%d %H:%M:%S"
+- name: Unix
+  type: integer
+- name: Aggregate
+  type: integer
+- name: Appliance1
+  type: integer
+- name: Appliance2
+  type: integer
+- name: Appliance3
+  type: integer
+- name: Appliance4
+  type: integer
+- name: Appliance5
+  type: integer
+- name: Appliance6
+  type: integer
+- name: Appliance7
+  type: integer
+- name: Appliance8
+  type: integer
+- name: Appliance9
+  type: integer
