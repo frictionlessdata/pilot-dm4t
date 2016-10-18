@@ -19,8 +19,7 @@ DM4T (Data Management for TEDDINET using Semantic Technologies) is a project to 
 ### Enliten
 
 * Info: https://teddinet.org/projects/buildteddi/enliten-energy-literacy-through-an-intelligent-home-energy-advisor/
-
-http://www.cs.bath.ac.uk/~jap/unlisted/enliten-tsv.zip
+* Direct Link: http://www.cs.bath.ac.uk/~jap/unlisted/enliten-tsv.zip
 
 ### APAtSCHE
 
