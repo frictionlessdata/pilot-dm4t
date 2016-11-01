@@ -1,1387 +1,1388 @@
 {
+  "description": "Collection of this dataset was supported by the Engineering and Physical Sciences Research Council (EPSRC) via the project entitled Personalised Retrofit Decision Support Tools for UK Homes using Smart Home Technology (REFIT), which is a collaboration among the Universities of Strathclyde, Loughborough and East Anglia. The dataset includes data from 20 households from the Loughborough area over the period 2013 - 2015. Additional information about REFIT is available from www.refitsmarthomes.org.",
+  "license": "CC-BY-4.0",
+  "name": "refit-electrical-load-measurements",
   "resources": [
     {
       "name": "house_1.csv",
+      "path": "data/House_1.csv",
       "schema": {
         "fields": [
           {
-            "type": "datetime",
+            "description": "DateTime",
             "format": "fmt:%Y-%m-%d %H:%M:%S",
             "name": "Time",
-            "description": "DateTime"
+            "type": "datetime"
           },
           {
-            "type": "integer",
+            "description": "UNIX TIMESTAMP (UCT)",
             "name": "Unix",
-            "description": "UnixTime"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Aggregate",
             "name": "Aggregate",
-            "description": "Aggregate"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Fridge",
             "name": "Appliance1",
-            "description": "Fridge"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Chest Freezer",
             "name": "Appliance2",
-            "description": "Chest Freezer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Upright Freezer",
             "name": "Appliance3",
-            "description": "Upright Freezer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Tumble Dryer",
             "name": "Appliance4",
-            "description": "Tumble Dryer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Washing Machine",
             "name": "Appliance5",
-            "description": "Washing Machine"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Dishwasher",
             "name": "Appliance6",
-            "description": "Dishwasher"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Computer Site",
             "name": "Appliance7",
-            "description": "Computer Site"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Television Site",
             "name": "Appliance8",
-            "description": "Television Site"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Electric Heater",
             "name": "Appliance9",
-            "description": "Electric Heater"
+            "type": "integer"
           }
         ]
-      },
-      "path": "data/House_1.csv"
+      }
     },
     {
       "name": "house_10.csv",
+      "path": "data/House_10.csv",
       "schema": {
         "fields": [
           {
-            "type": "datetime",
+            "description": "DateTime",
             "format": "fmt:%Y-%m-%d %H:%M:%S",
             "name": "Time",
-            "description": "DateTime"
+            "type": "datetime"
           },
           {
-            "type": "integer",
+            "description": "UNIX TIMESTAMP (UCT)",
             "name": "Unix",
-            "description": "UnixTime"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Aggregate",
             "name": "Aggregate",
-            "description": "Aggregate"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Magimix (Blender)",
             "name": "Appliance1",
-            "description": "Magimix (Blender)"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Freezer",
             "name": "Appliance2",
-            "description": "Freezer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Chest Freezer (In Garage)",
             "name": "Appliance3",
-            "description": "Chest Freezer (In Garage)"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Fridge-Freezer",
             "name": "Appliance4",
-            "description": "Fridge-Freezer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Washing Machine",
             "name": "Appliance5",
-            "description": "Washing Machine"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Dishwasher",
             "name": "Appliance6",
-            "description": "Dishwasher"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Television Site",
             "name": "Appliance7",
-            "description": "Television Site"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Microwave",
             "name": "Appliance8",
-            "description": "Microwave"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Kenwood KMix",
             "name": "Appliance9",
-            "description": "Kenwood KMix"
+            "type": "integer"
           }
         ]
-      },
-      "path": "data/House_10.csv"
+      }
     },
     {
       "name": "house_11.csv",
+      "path": "data/House_11.csv",
       "schema": {
         "fields": [
           {
-            "type": "datetime",
+            "description": "DateTime",
             "format": "fmt:%Y-%m-%d %H:%M:%S",
             "name": "Time",
-            "description": "DateTime"
+            "type": "datetime"
           },
           {
-            "type": "integer",
+            "description": "UNIX TIMESTAMP (UCT)",
             "name": "Unix",
-            "description": "UnixTime"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Aggregate",
             "name": "Aggregate",
-            "description": "Aggregate"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Fridge",
             "name": "Appliance1",
-            "description": "Fridge"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Fridge-Freezer",
             "name": "Appliance2",
-            "description": "Fridge-Freezer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Washing Machine",
             "name": "Appliance3",
-            "description": "Washing Machine"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Dishwasher",
             "name": "Appliance4",
-            "description": "Dishwasher"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Computer Site",
             "name": "Appliance5",
-            "description": "Computer Site"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Microwave",
             "name": "Appliance6",
-            "description": "Microwave"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Kettle",
             "name": "Appliance7",
-            "description": "Kettle"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Router",
             "name": "Appliance8",
-            "description": "Router"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Hi-Fi",
             "name": "Appliance9",
-            "description": "Hi-Fi"
+            "type": "integer"
           }
         ]
-      },
-      "path": "data/House_11.csv"
+      }
     },
     {
       "name": "house_12.csv",
+      "path": "data/House_12.csv",
       "schema": {
         "fields": [
           {
-            "type": "datetime",
+            "description": "DateTime",
             "format": "fmt:%Y-%m-%d %H:%M:%S",
             "name": "Time",
-            "description": "DateTime"
+            "type": "datetime"
           },
           {
-            "type": "integer",
+            "description": "UNIX TIMESTAMP (UCT)",
             "name": "Unix",
-            "description": "UnixTime"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Aggregate",
             "name": "Aggregate",
-            "description": "Aggregate"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Fridge-Freezer",
             "name": "Appliance1",
-            "description": "Fridge-Freezer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Television Site(Lounge)",
             "name": "Appliance2",
-            "description": "Television Site(Lounge)"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Microwave",
             "name": "Appliance3",
-            "description": "Microwave"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Kettle",
             "name": "Appliance4",
-            "description": "Kettle"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Toaster",
             "name": "Appliance5",
-            "description": "Toaster"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Television Site(Bedroom)",
             "name": "Appliance6",
-            "description": "Television Site(Bedroom)"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Not Used",
             "name": "Appliance7",
-            "description": "Not Used"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Not Used",
             "name": "Appliance8",
-            "description": "Not Used"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Not Used",
             "name": "Appliance9",
-            "description": "Not Used"
+            "type": "integer"
           }
         ]
-      },
-      "path": "data/House_12.csv"
+      }
     },
     {
       "name": "house_13.csv",
+      "path": "data/House_13.csv",
       "schema": {
         "fields": [
           {
-            "type": "datetime",
+            "description": "DateTime",
             "format": "fmt:%Y-%m-%d %H:%M:%S",
             "name": "Time",
-            "description": "DateTime"
+            "type": "datetime"
           },
           {
-            "type": "integer",
+            "description": "UNIX TIMESTAMP (UCT)",
             "name": "Unix",
-            "description": "UnixTime"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Aggregate",
             "name": "Aggregate",
-            "description": "Aggregate"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Television Site",
             "name": "Appliance1",
-            "description": "Television Site"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Unknown",
             "name": "Appliance2",
-            "description": "Unknown"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Washing Machine",
             "name": "Appliance3",
-            "description": "Washing Machine"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Dishwasher",
             "name": "Appliance4",
-            "description": "Dishwasher"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Tumble Dryer",
             "name": "Appliance5",
-            "description": "Tumble Dryer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Television Site",
             "name": "Appliance6",
-            "description": "Television Site"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Computer Site",
             "name": "Appliance7",
-            "description": "Computer Site"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Microwave",
             "name": "Appliance8",
-            "description": "Microwave"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Kettle",
             "name": "Appliance9",
-            "description": "Kettle"
+            "type": "integer"
           }
         ]
-      },
-      "path": "data/House_13.csv"
+      }
     },
     {
       "name": "house_15.csv",
+      "path": "data/House_15.csv",
       "schema": {
         "fields": [
           {
-            "type": "datetime",
+            "description": "DateTime",
             "format": "fmt:%Y-%m-%d %H:%M:%S",
             "name": "Time",
-            "description": "DateTime"
+            "type": "datetime"
           },
           {
-            "type": "integer",
+            "description": "UNIX TIMESTAMP (UCT)",
             "name": "Unix",
-            "description": "UnixTime"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Aggregate",
             "name": "Aggregate",
-            "description": "Aggregate"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Fridge-Freezer",
             "name": "Appliance1",
-            "description": "Fridge-Freezer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Tumble Dryer",
             "name": "Appliance2",
-            "description": "Tumble Dryer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Washing Machine",
             "name": "Appliance3",
-            "description": "Washing Machine"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Dishwasher",
             "name": "Appliance4",
-            "description": "Dishwasher"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Computer Site",
             "name": "Appliance5",
-            "description": "Computer Site"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Television Site",
             "name": "Appliance6",
-            "description": "Television Site"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Microwave",
             "name": "Appliance7",
-            "description": "Microwave"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Kettle",
             "name": "Appliance8",
-            "description": "Kettle"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Toaster",
             "name": "Appliance9",
-            "description": "Toaster"
+            "type": "integer"
           }
         ]
-      },
-      "path": "data/House_15.csv"
+      }
     },
     {
       "name": "house_16.csv",
+      "path": "data/House_16.csv",
       "schema": {
         "fields": [
           {
-            "type": "datetime",
+            "description": "DateTime",
             "format": "fmt:%Y-%m-%d %H:%M:%S",
             "name": "Time",
-            "description": "DateTime"
+            "type": "datetime"
           },
           {
-            "type": "integer",
+            "description": "UNIX TIMESTAMP (UCT)",
             "name": "Unix",
-            "description": "UnixTime"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Aggregate",
             "name": "Aggregate",
-            "description": "Aggregate"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Fridge-Freezer (1)",
             "name": "Appliance1",
-            "description": "Fridge-Freezer (1)"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Fridge-Freezer (2)",
             "name": "Appliance2",
-            "description": "Fridge-Freezer (2)"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Electric Heater (1)?",
             "name": "Appliance3",
-            "description": "Electric Heater (1)?"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Electric Heater (2)",
             "name": "Appliance4",
-            "description": "Electric Heater (2)"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Washing Machine",
             "name": "Appliance5",
-            "description": "Washing Machine"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Dishwasher",
             "name": "Appliance6",
-            "description": "Dishwasher"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Computer Site",
             "name": "Appliance7",
-            "description": "Computer Site"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Television Site",
             "name": "Appliance8",
-            "description": "Television Site"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Dehumidifier/Heater",
             "name": "Appliance9",
-            "description": "Dehumidifier/Heater"
+            "type": "integer"
           }
         ]
-      },
-      "path": "data/House_16.csv"
+      }
     },
     {
       "name": "house_17.csv",
+      "path": "data/House_17.csv",
       "schema": {
         "fields": [
           {
-            "type": "datetime",
+            "description": "DateTime",
             "format": "fmt:%Y-%m-%d %H:%M:%S",
             "name": "Time",
-            "description": "DateTime"
+            "type": "datetime"
           },
           {
-            "type": "integer",
+            "description": "UNIX TIMESTAMP (UCT)",
             "name": "Unix",
-            "description": "UnixTime"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Aggregate",
             "name": "Aggregate",
-            "description": "Aggregate"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Freezer (Garage)",
             "name": "Appliance1",
-            "description": "Freezer (Garage)"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Fridge-Freezer",
             "name": "Appliance2",
-            "description": "Fridge-Freezer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Tumble Dryer (Garage)",
             "name": "Appliance3",
-            "description": "Tumble Dryer (Garage)"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Washing Machine",
             "name": "Appliance4",
-            "description": "Washing Machine"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Computer Site",
             "name": "Appliance5",
-            "description": "Computer Site"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Television Site",
             "name": "Appliance6",
-            "description": "Television Site"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Microwave",
             "name": "Appliance7",
-            "description": "Microwave"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Kettle",
             "name": "Appliance8",
-            "description": "Kettle"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Plug Site (Bedroom)",
             "name": "Appliance9",
-            "description": "Plug Site (Bedroom)"
+            "type": "integer"
           }
         ]
-      },
-      "path": "data/House_17.csv"
+      }
     },
     {
       "name": "house_18.csv",
+      "path": "data/House_18.csv",
       "schema": {
         "fields": [
           {
-            "type": "datetime",
+            "description": "DateTime",
             "format": "fmt:%Y-%m-%d %H:%M:%S",
             "name": "Time",
-            "description": "DateTime"
+            "type": "datetime"
           },
           {
-            "type": "integer",
+            "description": "UNIX TIMESTAMP (UCT)",
             "name": "Unix",
-            "description": "UnixTime"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Aggregate",
             "name": "Aggregate",
-            "description": "Aggregate"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Fridge(garage)",
             "name": "Appliance1",
-            "description": "Fridge(garage)"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Freezer(garage)",
             "name": "Appliance2",
-            "description": "Freezer(garage)"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Fridge-Freezer",
             "name": "Appliance3",
-            "description": "Fridge-Freezer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Washer Dryer(garage)",
             "name": "Appliance4",
-            "description": "Washer Dryer(garage)"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Washing Machine",
             "name": "Appliance5",
-            "description": "Washing Machine"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Dishwasher",
             "name": "Appliance6",
-            "description": "Dishwasher"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Desktop Computer",
             "name": "Appliance7",
-            "description": "Desktop Computer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Television Site",
             "name": "Appliance8",
-            "description": "Television Site"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Microwave",
             "name": "Appliance9",
-            "description": "Microwave"
+            "type": "integer"
           }
         ]
-      },
-      "path": "data/House_18.csv"
+      }
     },
     {
       "name": "house_19.csv",
+      "path": "data/House_19.csv",
       "schema": {
         "fields": [
           {
-            "type": "datetime",
+            "description": "DateTime",
             "format": "fmt:%Y-%m-%d %H:%M:%S",
             "name": "Time",
-            "description": "DateTime"
+            "type": "datetime"
           },
           {
-            "type": "integer",
+            "description": "UNIX TIMESTAMP (UCT)",
             "name": "Unix",
-            "description": "UnixTime"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Aggregate",
             "name": "Aggregate",
-            "description": "Aggregate"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Fridge & Freezer",
             "name": "Appliance1",
-            "description": "Fridge & Freezer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Washing Machine",
             "name": "Appliance2",
-            "description": "Washing Machine"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Television Site",
             "name": "Appliance3",
-            "description": "Television Site"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Microwave",
             "name": "Appliance4",
-            "description": "Microwave"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Kettle",
             "name": "Appliance5",
-            "description": "Kettle"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Toaster",
             "name": "Appliance6",
-            "description": "Toaster"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Bread-maker",
             "name": "Appliance7",
-            "description": "Bread-maker"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Lamp (80Watts)",
             "name": "Appliance8",
-            "description": "Lamp (80Watts)"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Hi-Fi",
             "name": "Appliance9",
-            "description": "Hi-Fi"
+            "type": "integer"
           }
         ]
-      },
-      "path": "data/House_19.csv"
+      }
     },
     {
       "name": "house_2.csv",
+      "path": "data/House_2.csv",
       "schema": {
         "fields": [
           {
-            "type": "datetime",
+            "description": "DateTime",
             "format": "fmt:%Y-%m-%d %H:%M:%S",
             "name": "Time",
-            "description": "DateTime"
+            "type": "datetime"
           },
           {
-            "type": "integer",
+            "description": "UNIX TIMESTAMP (UCT)",
             "name": "Unix",
-            "description": "UnixTime"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Aggregate",
             "name": "Aggregate",
-            "description": "Aggregate"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Fridge-Freezer",
             "name": "Appliance1",
-            "description": "Fridge-Freezer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Washing Machine",
             "name": "Appliance2",
-            "description": "Washing Machine"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Dishwasher",
             "name": "Appliance3",
-            "description": "Dishwasher"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Television",
             "name": "Appliance4",
-            "description": "Television"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Microwave",
             "name": "Appliance5",
-            "description": "Microwave"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Toaster",
             "name": "Appliance6",
-            "description": "Toaster"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Hi-Fi",
             "name": "Appliance7",
-            "description": "Hi-Fi"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Kettle",
             "name": "Appliance8",
-            "description": "Kettle"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Oven Extractor Fan",
             "name": "Appliance9",
-            "description": "Oven Extractor Fan"
+            "type": "integer"
           }
         ]
-      },
-      "path": "data/House_2.csv"
+      }
     },
     {
       "name": "house_20.csv",
+      "path": "data/House_20.csv",
       "schema": {
         "fields": [
           {
-            "type": "datetime",
+            "description": "DateTime",
             "format": "fmt:%Y-%m-%d %H:%M:%S",
             "name": "Time",
-            "description": "DateTime"
+            "type": "datetime"
           },
           {
-            "type": "integer",
+            "description": "UNIX TIMESTAMP (UCT)",
             "name": "Unix",
-            "description": "UnixTime"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Aggregate",
             "name": "Aggregate",
-            "description": "Aggregate"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Fridge",
             "name": "Appliance1",
-            "description": "Fridge"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Freezer",
             "name": "Appliance2",
-            "description": "Freezer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Tumble Dryer",
             "name": "Appliance3",
-            "description": "Tumble Dryer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Washing Machine",
             "name": "Appliance4",
-            "description": "Washing Machine"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Dishwasher",
             "name": "Appliance5",
-            "description": "Dishwasher"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Computer Site",
             "name": "Appliance6",
-            "description": "Computer Site"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Television Site",
             "name": "Appliance7",
-            "description": "Television Site"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Microwave",
             "name": "Appliance8",
-            "description": "Microwave"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Kettle",
             "name": "Appliance9",
-            "description": "Kettle"
+            "type": "integer"
           }
         ]
-      },
-      "path": "data/House_20.csv"
+      }
     },
     {
       "name": "house_21.csv",
+      "path": "data/House_21.csv",
       "schema": {
         "fields": [
           {
-            "type": "datetime",
+            "description": "DateTime",
             "format": "fmt:%Y-%m-%d %H:%M:%S",
             "name": "Time",
-            "description": "DateTime"
+            "type": "datetime"
           },
           {
-            "type": "integer",
+            "description": "UNIX TIMESTAMP (UCT)",
             "name": "Unix",
-            "description": "UnixTime"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Aggregate",
             "name": "Aggregate",
-            "description": "Aggregate"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Fridge-Freezer",
             "name": "Appliance1",
-            "description": "Fridge-Freezer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Tumble Dryer",
             "name": "Appliance2",
-            "description": "Tumble Dryer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Washing Machine",
             "name": "Appliance3",
-            "description": "Washing Machine"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Dishwasher",
             "name": "Appliance4",
-            "description": "Dishwasher"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Food Mixer",
             "name": "Appliance5",
-            "description": "Food Mixer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Television",
             "name": "Appliance6",
-            "description": "Television"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Kettle/Toaster",
             "name": "Appliance7",
-            "description": "Kettle/Toaster"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Vivarium",
             "name": "Appliance8",
-            "description": "Vivarium"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Pond Pump",
             "name": "Appliance9",
-            "description": "Pond Pump"
+            "type": "integer"
           }
         ]
-      },
-      "path": "data/House_21.csv"
+      }
     },
     {
       "name": "house_3.csv",
+      "path": "data/House_3.csv",
       "schema": {
         "fields": [
           {
-            "type": "datetime",
+            "description": "DateTime",
             "format": "fmt:%Y-%m-%d %H:%M:%S",
             "name": "Time",
-            "description": "DateTime"
+            "type": "datetime"
           },
           {
-            "type": "integer",
+            "description": "UNIX TIMESTAMP (UCT)",
             "name": "Unix",
-            "description": "UnixTime"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Aggregate",
             "name": "Aggregate",
-            "description": "Aggregate"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Toaster",
             "name": "Appliance1",
-            "description": "Toaster"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Fridge-Freezer",
             "name": "Appliance2",
-            "description": "Fridge-Freezer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Freezer",
             "name": "Appliance3",
-            "description": "Freezer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Tumble Dryer",
             "name": "Appliance4",
-            "description": "Tumble Dryer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Dishwasher",
             "name": "Appliance5",
-            "description": "Dishwasher"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Washing Machine",
             "name": "Appliance6",
-            "description": "Washing Machine"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Television",
             "name": "Appliance7",
-            "description": "Television"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Microwave",
             "name": "Appliance8",
-            "description": "Microwave"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Kettle",
             "name": "Appliance9",
-            "description": "Kettle"
+            "type": "integer"
           }
         ]
-      },
-      "path": "data/House_3.csv"
+      }
     },
     {
       "name": "house_4.csv",
+      "path": "data/House_4.csv",
       "schema": {
         "fields": [
           {
-            "type": "datetime",
+            "description": "DateTime",
             "format": "fmt:%Y-%m-%d %H:%M:%S",
             "name": "Time",
-            "description": "DateTime"
+            "type": "datetime"
           },
           {
-            "type": "integer",
+            "description": "UNIX TIMESTAMP (UCT)",
             "name": "Unix",
-            "description": "UnixTime"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Aggregate",
             "name": "Aggregate",
-            "description": "Aggregate"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Fridge",
             "name": "Appliance1",
-            "description": "Fridge"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Freezer",
             "name": "Appliance2",
-            "description": "Freezer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Fridge-Freezer",
             "name": "Appliance3",
-            "description": "Fridge-Freezer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Washing Machine (1)",
             "name": "Appliance4",
-            "description": "Washing Machine (1)"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Washing Machine (2)",
             "name": "Appliance5",
-            "description": "Washing Machine (2)"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Computer Site",
             "name": "Appliance6",
-            "description": "Computer Site"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Television Site",
             "name": "Appliance7",
-            "description": "Television Site"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Microwave",
             "name": "Appliance8",
-            "description": "Microwave"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Kettle",
             "name": "Appliance9",
-            "description": "Kettle"
+            "type": "integer"
           }
         ]
-      },
-      "path": "data/House_4.csv"
+      }
     },
     {
       "name": "house_5.csv",
+      "path": "data/House_5.csv",
       "schema": {
         "fields": [
           {
-            "type": "datetime",
+            "description": "DateTime",
             "format": "fmt:%Y-%m-%d %H:%M:%S",
             "name": "Time",
-            "description": "DateTime"
+            "type": "datetime"
           },
           {
-            "type": "integer",
+            "description": "UNIX TIMESTAMP (UCT)",
             "name": "Unix",
-            "description": "UnixTime"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Aggregate",
             "name": "Aggregate",
-            "description": "Aggregate"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Fridge-Freezer",
             "name": "Appliance1",
-            "description": "Fridge-Freezer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Tumble Dryer",
             "name": "Appliance2",
-            "description": "Tumble Dryer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Washing Machine",
             "name": "Appliance3",
-            "description": "Washing Machine"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Dishwasher",
             "name": "Appliance4",
-            "description": "Dishwasher"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Computer Site",
             "name": "Appliance5",
-            "description": "Computer Site"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Television Site",
             "name": "Appliance6",
-            "description": "Television Site"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Combination Microwave",
             "name": "Appliance7",
-            "description": "Combination Microwave"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Kettle",
             "name": "Appliance8",
-            "description": "Kettle"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Toaster",
             "name": "Appliance9",
-            "description": "Toaster"
+            "type": "integer"
           }
         ]
-      },
-      "path": "data/House_5.csv"
+      }
     },
     {
       "name": "house_6.csv",
+      "path": "data/House_6.csv",
       "schema": {
         "fields": [
           {
-            "type": "datetime",
+            "description": "DateTime",
             "format": "fmt:%Y-%m-%d %H:%M:%S",
             "name": "Time",
-            "description": "DateTime"
+            "type": "datetime"
           },
           {
-            "type": "integer",
+            "description": "UNIX TIMESTAMP (UCT)",
             "name": "Unix",
-            "description": "UnixTime"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Aggregate",
             "name": "Aggregate",
-            "description": "Aggregate"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Freezer (Utility Room)",
             "name": "Appliance1",
-            "description": "Freezer (Utility Room)"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Washing Machine",
             "name": "Appliance2",
-            "description": "Washing Machine"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Dishwasher",
             "name": "Appliance3",
-            "description": "Dishwasher"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "MJY Computer",
             "name": "Appliance4",
-            "description": "MJY Computer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Television Site",
             "name": "Appliance5",
-            "description": "Television Site"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Microwave",
             "name": "Appliance6",
-            "description": "Microwave"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Kettle",
             "name": "Appliance7",
-            "description": "Kettle"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Toaster",
             "name": "Appliance8",
-            "description": "Toaster"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "PGM Computer",
             "name": "Appliance9",
-            "description": "PGM Computer"
+            "type": "integer"
           }
         ]
-      },
-      "path": "data/House_6.csv"
+      }
     },
     {
       "name": "house_7.csv",
+      "path": "data/House_7.csv",
       "schema": {
         "fields": [
           {
-            "type": "datetime",
+            "description": "DateTime",
             "format": "fmt:%Y-%m-%d %H:%M:%S",
             "name": "Time",
-            "description": "DateTime"
+            "type": "datetime"
           },
           {
-            "type": "integer",
+            "description": "UNIX TIMESTAMP (UCT)",
             "name": "Unix",
-            "description": "UnixTime"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Aggregate",
             "name": "Aggregate",
-            "description": "Aggregate"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Fridge",
             "name": "Appliance1",
-            "description": "Fridge"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Freezer (Garage)",
             "name": "Appliance2",
-            "description": "Freezer (Garage)"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Freezer",
             "name": "Appliance3",
-            "description": "Freezer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Tumble Dryer",
             "name": "Appliance4",
-            "description": "Tumble Dryer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Washing Machine",
             "name": "Appliance5",
-            "description": "Washing Machine"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Dishwasher",
             "name": "Appliance6",
-            "description": "Dishwasher"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Television Site",
             "name": "Appliance7",
-            "description": "Television Site"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Toaster",
             "name": "Appliance8",
-            "description": "Toaster"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Kettle",
             "name": "Appliance9",
-            "description": "Kettle"
+            "type": "integer"
           }
         ]
-      },
-      "path": "data/House_7.csv"
+      }
     },
     {
       "name": "house_8.csv",
+      "path": "data/House_8.csv",
       "schema": {
         "fields": [
           {
-            "type": "datetime",
+            "description": "DateTime",
             "format": "fmt:%Y-%m-%d %H:%M:%S",
             "name": "Time",
-            "description": "DateTime"
+            "type": "datetime"
           },
           {
-            "type": "integer",
+            "description": "UNIX TIMESTAMP (UCT)",
             "name": "Unix",
-            "description": "UnixTime"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Aggregate",
             "name": "Aggregate",
-            "description": "Aggregate"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Fridge",
             "name": "Appliance1",
-            "description": "Fridge"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Freezer",
             "name": "Appliance2",
-            "description": "Freezer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Dryer",
             "name": "Appliance3",
-            "description": "Dryer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Washing Machine",
             "name": "Appliance4",
-            "description": "Washing Machine"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Toaster",
             "name": "Appliance5",
-            "description": "Toaster"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Computer",
             "name": "Appliance6",
-            "description": "Computer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Television Site",
             "name": "Appliance7",
-            "description": "Television Site"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Microwave",
             "name": "Appliance8",
-            "description": "Microwave"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Kettle",
             "name": "Appliance9",
-            "description": "Kettle"
+            "type": "integer"
           }
         ]
-      },
-      "path": "data/House_8.csv"
+      }
     },
     {
       "name": "house_9.csv",
+      "path": "data/House_9.csv",
       "schema": {
         "fields": [
           {
-            "type": "datetime",
+            "description": "DateTime",
             "format": "fmt:%Y-%m-%d %H:%M:%S",
             "name": "Time",
-            "description": "DateTime"
+            "type": "datetime"
           },
           {
-            "type": "integer",
+            "description": "UNIX TIMESTAMP (UCT)",
             "name": "Unix",
-            "description": "UnixTime"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Aggregate",
             "name": "Aggregate",
-            "description": "Aggregate"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Fridge-Freezer",
             "name": "Appliance1",
-            "description": "Fridge-Freezer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Washer Dryer",
             "name": "Appliance2",
-            "description": "Washer Dryer"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Washing Machine",
             "name": "Appliance3",
-            "description": "Washing Machine"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Dishwasher",
             "name": "Appliance4",
-            "description": "Dishwasher"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Television Site",
             "name": "Appliance5",
-            "description": "Television Site"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Microwave",
             "name": "Appliance6",
-            "description": "Microwave"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Kettle",
             "name": "Appliance7",
-            "description": "Kettle"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Hi-Fi",
             "name": "Appliance8",
-            "description": "Hi-Fi"
+            "type": "integer"
           },
           {
-            "type": "integer",
+            "description": "Electric Heater",
             "name": "Appliance9",
-            "description": "Electric Heater"
+            "type": "integer"
           }
         ]
-      },
-      "path": "data/House_9.csv"
+      }
     }
   ],
-  "description": "Collection of this dataset was supported by the Engineering and Physical Sciences Research Council (EPSRC) via the project entitled Personalised Retrofit Decision Support Tools for UK Homes using Smart Home Technology (REFIT), which is a collaboration among the Universities of Strathclyde, Loughborough and East Anglia. The dataset includes data from 20 households from the Loughborough area over the period 2013 - 2015. Additional information about REFIT is available from www.refitsmarthomes.org.",
-  "name": "refit-electrical-load-measurements",
   "title": "REFIT: Electrical Load Measurements"
 }
