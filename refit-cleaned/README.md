@@ -12,6 +12,22 @@ This folder contains a very simple example of a Data Package derived from the cl
 
 7zip required (`brew install p7zip` on Mac OS X)
 
+## Data Preview
+
+```
+$ head data/House_1.csv
+Time,Unix,Aggregate,Appliance1,Appliance2,Appliance3,Appliance4,Appliance5,Appliance6,Appliance7,Appliance8,Appliance9
+2013-10-09 13:06:17,1381323977,523,74,0,69,0,0,0,0,0,1
+2013-10-09 13:06:31,1381323991,526,75,0,69,0,0,0,0,0,1
+2013-10-09 13:06:46,1381324006,540,74,0,68,0,0,0,0,0,1
+2013-10-09 13:07:01,1381324021,532,74,0,68,0,0,0,0,0,1
+2013-10-09 13:07:15,1381324035,540,74,0,69,0,0,0,0,0,1
+2013-10-09 13:07:18,1381324038,539,74,0,69,0,0,0,0,0,1
+2013-10-09 13:07:30,1381324050,537,74,0,69,0,0,0,0,0,1
+2013-10-09 13:07:32,1381324052,537,74,0,69,0,0,0,0,0,1
+2013-10-09 13:07:44,1381324064,548,74,0,69,0,0,0,0,0,1
+```
+
 ## Hosted Data Package
 
 The data for this Data Package is too large (6.7GB) to be stored on
