@@ -5,9 +5,13 @@
 
 library(datapkg)
 
-# load dataset into memory
+# load dataset into memory from remote source
 
-refit <- datapkg_read()
+refit <- datapkg_read('https://s3-eu-west-1.amazonaws.com/frictionlessdata.io/pilots/pilot-dm4t/datapackage.json')
+
+# or load dataset into memory from local source
+
+# refit <- datapkg_read()
 
 house_1 <- refit$data$house_1.csv
 house_2 <- refit$data$house_2.csv
@@ -26,4 +30,3 @@ filtered_agg_2 <- house_2$Aggregate[house_2$Time > start & house_2$Time < end]
 
 plot(filtered_time_1, filtered_agg_1, type='l', col="red")
 lines(filtered_time_2, filtered_agg_2, type='l', col="green")
-
