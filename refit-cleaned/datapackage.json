@@ -1384,5 +1384,12 @@
       }
     }
   ],
+  "sources": [
+    {
+      "email": "researchdataproject@strath.ac.uk",
+      "name": "REFIT: Electrical Load Measurements (Cleaned)",
+      "web": "https://pure.strath.ac.uk/portal/en/datasets/refit-electrical-load-measurements-cleaned(9ab14b0e-19ac-4279-938f-27f643078cec).html"
+    }
+  ],
   "title": "REFIT: Electrical Load Measurements"
 }

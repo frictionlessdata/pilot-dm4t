@@ -35,3 +35,5 @@ GitHub directly.  The full package has been uploaded to Amazon S3 for
 loading directly into your tool of choice.
 
 [datapackage.json](https://s3-eu-west-1.amazonaws.com/frictionlessdata.io/pilots/pilot-dm4t/datapackage.json)
+
+[data.okfn.org view](http://data.okfn.org/tools/view?url=https%3A%2F%2Fs3-eu-west-1.amazonaws.com%2Ffrictionlessdata.io%2Fpilots%2Fpilot-dm4t%2Fdatapackage.json)
