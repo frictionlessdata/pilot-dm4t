@@ -1,0 +1,29 @@
+enliten:
+  pipeline:
+    -
+      run: add_metadata
+      parameters:
+        name: 'enliten'
+        title: 'ENLITEN'
+        homepage: 'http://www.cs.bath.ac.uk/enliten/'
+    -
+      run: add_resource
+      parameters:
+        url: 'mysql://root@localhost/enliten'
+        table: 3g
+        name: 3g
+        headers: ['home']
+    -
+      run: stream_remote_resources
+      cache: True
+    -
+      run: set_types
+      parameters:
+         resources: 3g
+         types:
+           home:
+             type: integer
+    -
+      run: dump.to_path
+      parameters:
+          out-path: _datasets/enliten
