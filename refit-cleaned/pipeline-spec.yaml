@@ -4,7 +4,7 @@ refit-cleaned:
       parameters:
         name: refit-electrical-load-measurements
         title: 'REFIT: Electrical Load Measurements'
-        #        license: CC-BY-4.0
+        license: CC-BY-4.0
         description: Collection of this dataset was supported by the Engineering and Physical Sciences Research Council (EPSRC) via the project entitled Personalised Retrofit Decision Support Tools for UK Homes using Smart Home Technology (REFIT), which is a collaboration among the Universities of Strathclyde, Loughborough and East Anglia. The dataset includes data from 20 households from the Loughborough area over the period 2013 - 2015. Additional information about REFIT is available from www.refitsmarthomes.org.
         sources:
           -
@@ -14,102 +14,102 @@ refit-cleaned:
     - run: add_resource
       parameters:
         name: 'house-1'
-        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_1.csv'
+        url: '../refit-cleaned/archive/House_1.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-2'
-        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_2.csv'
+        url: '../refit-cleaned/archive/House_2.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-3'
-        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_3.csv'
+        url: '../refit-cleaned/archive/House_3.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-4'
-        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_4.csv'
+        url: '../refit-cleaned/archive/House_4.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-5'
-        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_5.csv'
+        url: '../refit-cleaned/archive/House_5.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-6'
-        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_6.csv'
+        url: '../refit-cleaned/archive/House_6.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-7'
-        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_7.csv'
+        url: '../refit-cleaned/archive/House_7.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-8'
-        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_8.csv'
+        url: '../refit-cleaned/archive/House_8.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-9'
-        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_9.csv'
+        url: '../refit-cleaned/archive/House_9.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-10'
-        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_10.csv'
+        url: '../refit-cleaned/archive/House_10.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-11'
-        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_11.csv'
+        url: '../refit-cleaned/archive/House_11.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-12'
-        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_12.csv'
+        url: '../refit-cleaned/archive/House_12.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-13'
-        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_13.csv'
+        url: '../refit-cleaned/archive/House_13.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-15'
-        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_15.csv'
+        url: '../refit-cleaned/archive/House_15.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-16'
-        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_16.csv'
+        url: '../refit-cleaned/archive/House_16.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-17'
-        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_17.csv'
+        url: '../refit-cleaned/archive/House_17.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-18'
-        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_18.csv'
+        url: '../refit-cleaned/archive/House_18.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-19'
-        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_19.csv'
+        url: '../refit-cleaned/archive/House_19.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-20'
-        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_20.csv'
+        url: '../refit-cleaned/archive/House_20.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-21'
-        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_21.csv'
+        url: '../refit-cleaned/archive/House_21.csv'
         format: csv
     - run: stream_remote_resources
     - run: set_types
@@ -127,26 +127,444 @@ refit-cleaned:
             type: integer
     - run: .._custom_processors.update.modify_descriptions
       parameters:
-        resources: 'house-1'
+        resources: house-1
         descriptions:
           Appliance1:
-            Fridge
+            description: Fridge
           Appliance2:
-            Chest Freezer
+            description: Chest Freezer
           Appliance3:
-            Upright Freezer
+            description: Upright Freezer
           Appliance4:
-            Tumble Dryer
+            description: Tumble Dryer
           Appliance5:
-            Washing Machine
+            descripion: Washing Machine
           Appliance6:
-            Dishwasher
+            description: Dishwasher
           Appliance7:
-            Computer Site
+            description: Computer Site
           Appliance8:
-            Television Site
+            description: Television Site
           Appliance9:
-            Electric Heater
+            description: Electric Heater
+    - run: .._custom_processors.update.modify_descriptions
+      parameters:
+        resources: house-2
+        descriptions:
+          Appliance1:
+            description: Fridge-Freezer
+          Appliance2:
+            description: Washing Machine
+          Appliance3:
+            description: Dishwasher
+          Appliance4:
+            description: Television
+          Appliance5:
+            description: Microwave
+          Appliance6:
+            description: Toaster
+          Appliance7:
+            description: Hi-Fi
+          Appliance8:
+            description: Kettle
+          Appliance9:
+            description: Oven Extractor Fan
+    - run: .._custom_processors.update.modify_descriptions
+      parameters:
+        resources: house-3
+        descriptions:
+          Appliance1:
+            description: Toaster
+          Appliance2:
+            description: Fridge-Freezer
+          Appliance3:
+            description: Freezer
+          Appliance4:
+            description: Tumble Dryer
+          Appliance5:
+            description: Dishwasher
+          Appliance6:
+            description: Washing Machine
+          Appliance7:
+            description: Television
+          Appliance8:
+            description: Microwave
+          Appliance9:
+            description: Kettle
+    - run: .._custom_processors.update.modify_descriptions
+      parameters:
+        resources: house-4
+        descriptions:
+          Appliance1:
+            description: Fridge
+          Appliance2:
+            description: Freezer
+          Appliance3:
+            description: Fridge-Freezer
+          Appliance4:
+            description: Washing Machine (1)
+          Appliance5:
+            description: Washing Machine (2)
+          Appliance6:
+            description: Computer Site
+          Appliance7:
+            description: Television Site
+          Appliance8:
+            description: Microwave
+          Appliance9:
+            description: Kettle
+    - run: .._custom_processors.update.modify_descriptions
+      parameters:
+        resources: house-5
+        descriptions:
+          Appliance1:
+            description: Fridge-Freezer
+          Appliance2:
+            description: Tumble Dryer
+          Appliance3:
+            description: Washing Machine
+          Appliance4:
+            description: Dishwasher
+          Appliance5:
+            description: Computer Site
+          Appliance6:
+            description: Television Site
+          Appliance7:
+            description: Combination Microwave
+          Appliance8:
+            description: Kettle
+          Appliance9:
+            description: Toaster
+    - run: .._custom_processors.update.modify_descriptions
+      parameters:
+        resources: house-6
+        descriptions:
+          Appliance1:
+            description: Freezer (Utility Room)
+          Appliance2:
+            description: Washing Machine
+          Appliance3:
+            description: Dishwasher
+          Appliance4:
+            description: MJY Computer
+          Appliance5:
+            description: Television Site
+          Appliance6:
+            description: Microwave
+          Appliance7:
+            description: Kettle
+          Appliance8:
+            description: Toaster
+          Appliance9:
+            description: PGM Computer
+    - run: .._custom_processors.update.modify_descriptions
+      parameters:
+        resources: house-7
+        descriptions:
+          Appliance1:
+            description: Fridge
+          Appliance2:
+            description: Freezer (Garage)
+          Appliance3:
+            description: Freezer
+          Appliance4:
+            description: Tumble Dryer
+          Appliance5:
+            description: Washing Machine
+          Appliance6:
+            description: Dishwasher
+          Appliance7:
+            description: Television Site
+          Appliance8:
+            description: Toaster
+          Appliance9:
+            description: Kettle
+    - run: .._custom_processors.update.modify_descriptions
+      parameters:
+        resources: house-8
+        descriptions:
+          Appliance1:
+            description: Fridge
+          Appliance2:
+            description: Freezer
+          Appliance3:
+            description: Dryer
+          Appliance4:
+            description: Washing Machine
+          Appliance5:
+            description: Toaster
+          Appliance6:
+            description: Computer
+          Appliance7:
+            description: Television Site
+          Appliance8:
+            description: Microwave
+          Appliance9:
+            description: Kettle
+    - run: .._custom_processors.update.modify_descriptions
+      parameters:
+        resources: house-9
+        descriptions:
+          Appliance1:
+            description: Fridge-Freezer
+          Appliance2:
+            description: Washer Dryer
+          Appliance3:
+            description: Washing Machine
+          Appliance4:
+            description: Dishwasher
+          Appliance5:
+            description: Television Site
+          Appliance6:
+            description: Microwave
+          Appliance7:
+            description: Kettle
+          Appliance8:
+            description: Hi-Fi
+          Appliance9:
+            description: Electric Heater
+    - run: .._custom_processors.update.modify_descriptions
+      parameters:
+        resources: house-10
+        descriptions:
+          Appliance1:
+            description: Magimix (Blender)
+          Appliance2:
+            description: Freezer
+          Appliance3:
+            description: Chest Freezer (In Garage)
+          Appliance4:
+            description: Fridge-Freezer
+          Appliance5:
+            description: Washing Machine
+          Appliance6:
+            description: Dishwasher
+          Appliance7:
+            description: Television Site
+          Appliance8:
+            description: Microwave
+          Appliance9:
+            description: Kenwood KMix
+    - run: .._custom_processors.update.modify_descriptions
+      parameters:
+        resources: house-11
+        descriptions:
+          Appliance1:
+            description: Fridge
+          Appliance2:
+            description: Fridge-Freezer
+          Appliance3:
+            description: Washing Machine
+          Appliance4:
+            description: Dishwasher
+          Appliance5:
+            description: Computer Site
+          Appliance6:
+            description: Microwave
+          Appliance7:
+            description: Kettle
+          Appliance8:
+            description: Router
+          Appliance9:
+            description: Hi-Fi
+    - run: .._custom_processors.update.modify_descriptions
+      parameters:
+        resources: house-12
+        descriptions:
+          Appliance1:
+            description: Fridge-Freezer
+          Appliance2:
+            description: Television Site(Lounge)
+          Appliance3:
+            description: Microwave
+          Appliance4:
+            description: Kettle
+          Appliance5:
+            description: Toaster
+          Appliance6:
+            description: Television Site(Bedroom)
+          Appliance7:
+            description: Not Used
+          Appliance8:
+            description: Not Used
+          Appliance9:
+            description: Not Used
+    - run: .._custom_processors.update.modify_descriptions
+      parameters:
+        resources: house-13
+        descriptions:
+          Appliance1:
+            description: Television Site
+          Appliance2:
+            description: Unknown
+          Appliance3:
+            description: Washing Machine
+          Appliance4:
+            description: Dishwasher
+          Appliance5:
+            description: Tumble Dryer
+          Appliance6:
+            description: Television Site
+          Appliance7:
+            description: Computer Site
+          Appliance8:
+            description: Microwave
+          Appliance9:
+            description: Kettle
+    - run: .._custom_processors.update.modify_descriptions
+      parameters:
+        resources: house-15
+        descriptions:
+          Appliance1:
+            description: Fridge-Freezer
+          Appliance2:
+            description: Tumble Dryer
+          Appliance3:
+            description: Washing Machine
+          Appliance4:
+            description: Dishwasher
+          Appliance5:
+            description: Computer Site
+          Appliance6:
+            description: Television Site
+          Appliance7:
+            description: Microwave
+          Appliance8:
+            description: Kettle
+          Appliance9:
+            description: Toaster
+    - run: .._custom_processors.update.modify_descriptions
+      parameters:
+        resources: house-16
+        descriptions:
+          Appliance1:
+            description: Fridge-Freezer (1)
+          Appliance2:
+            description: Fridge-Freezer (2)
+          Appliance3:
+            description: Electric Heater (1)?
+          Appliance4:
+            description: Electric Heater (2)
+          Appliance5:
+            description: Washing Machine
+          Appliance6:
+            description: Dishwasher
+          Appliance7:
+            description: Computer Site
+          Appliance8:
+            description: Television Site
+          Appliance9:
+            description: Dehumidifier/Heater
+    - run: .._custom_processors.update.modify_descriptions
+      parameters:
+        resources: house-17
+        descriptions:
+          Appliance1:
+            description: Freezer (Garage)
+          Appliance2:
+            description: Fridge-Freezer
+          Appliance3:
+            description: Tumble Dryer (Garage)
+          Appliance4:
+            description: Washing Machine
+          Appliance5:
+            description: Computer Site
+          Appliance6:
+            description: Television Site
+          Appliance7:
+            description: Microwave
+          Appliance8:
+            description: Kettle
+          Appliance9:
+            description: Plug Site (Bedroom)
+    - run: .._custom_processors.update.modify_descriptions
+      parameters:
+        resources: house-18
+        descriptions:
+          Appliance1:
+            description: Fridge(garage)
+          Appliance2:
+            description: Freezer(garage)
+          Appliance3:
+            description: Fridge-Freezer
+          Appliance4:
+            description: Washer Dryer(garage)
+          Appliance5:
+            description: Washing Machine
+          Appliance6:
+            description: Dishwasher
+          Appliance7:
+            description: Desktop Computer
+          Appliance8:
+            description: Television Site
+          Appliance9:
+            description: Microwave
+    - run: .._custom_processors.update.modify_descriptions
+      parameters:
+        resources: house-19
+        descriptions:
+          Appliance1:
+            description: Fridge & Freezer
+          Appliance2:
+            description: Washing Machine
+          Appliance3:
+            description: Television Site
+          Appliance4:
+            description: Microwave
+          Appliance5:
+            description: Kettle
+          Appliance6:
+            description: Toaster
+          Appliance7:
+            description: Bread-maker
+          Appliance8:
+            description: Lamp (80Watts)
+          Appliance9:
+            description: Hi-Fi
+    - run: .._custom_processors.update.modify_descriptions
+      parameters:
+        resources: house-20
+        descriptions:
+          Appliance1:
+            description: Fridge
+          Appliance2:
+            description: Freezer
+          Appliance3:
+            description: Tumble Dryer
+          Appliance4:
+            description: Washing Machine
+          Appliance5:
+            description: Dishwasher
+          Appliance6:
+            description: Computer Site
+          Appliance7:
+            description: Television Site
+          Appliance8:
+            description: Microwave
+          Appliance9:
+            description: Kettle
+    - run: .._custom_processors.update.modify_descriptions
+      parameters:
+        resources: house-21
+        descriptions:
+          Appliance1:
+            description: Fridge-Freezer
+          Appliance2:
+            description: Tumble Dryer
+          Appliance3:
+            description: Washing Machine
+          Appliance4:
+            description: Dishwasher
+          Appliance5:
+            description: Food Mixer
+          Appliance6:
+            description: Television
+          Appliance7:
+            description: Kettle/Toaster
+          Appliance8:
+            description: Vivarium
+          Appliance9:
+            description: Pond Pump
     - run: dump.to_path
       parameters:
           out-path: ../_datasets/refit-cleaned
