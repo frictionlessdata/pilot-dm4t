@@ -2,9 +2,9 @@
 /refit-cleaned/archive
 /apatsche/archive
 /apatsche/data
-/.cache
+.cache
 .Rhistory
 .ipynb_checkpoints
 /apatsche
-/.dpp.db
+.dpp.db
 /_datasets

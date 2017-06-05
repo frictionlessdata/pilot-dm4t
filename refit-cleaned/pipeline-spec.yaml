@@ -1,0 +1,156 @@
+refit-cleaned:
+  pipeline:
+    - run: add_metadata
+      parameters:
+        name: refit-electrical-load-measurements
+        title: 'REFIT: Electrical Load Measurements'
+        #        license: CC-BY-4.0
+        description: Collection of this dataset was supported by the Engineering and Physical Sciences Research Council (EPSRC) via the project entitled Personalised Retrofit Decision Support Tools for UK Homes using Smart Home Technology (REFIT), which is a collaboration among the Universities of Strathclyde, Loughborough and East Anglia. The dataset includes data from 20 households from the Loughborough area over the period 2013 - 2015. Additional information about REFIT is available from www.refitsmarthomes.org.
+        sources:
+          -
+            name: 'REFIT: Electrical Load Measurements (Cleaned)'
+            web: 'https://pure.strath.ac.uk/portal/en/datasets/refit-electrical-load-measurements-cleaned(9ab14b0e-19ac-4279-938f-27f643078cec).html'
+            email: researchdataproject@strath.ac.uk
+    - run: add_resource
+      parameters:
+        name: 'house-1'
+        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_1.csv'
+        format: csv
+    - run: add_resource
+      parameters:
+        name: 'house-2'
+        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_2.csv'
+        format: csv
+    - run: add_resource
+      parameters:
+        name: 'house-3'
+        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_3.csv'
+        format: csv
+    - run: add_resource
+      parameters:
+        name: 'house-4'
+        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_4.csv'
+        format: csv
+    - run: add_resource
+      parameters:
+        name: 'house-5'
+        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_5.csv'
+        format: csv
+    - run: add_resource
+      parameters:
+        name: 'house-6'
+        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_6.csv'
+        format: csv
+    - run: add_resource
+      parameters:
+        name: 'house-7'
+        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_7.csv'
+        format: csv
+    - run: add_resource
+      parameters:
+        name: 'house-8'
+        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_8.csv'
+        format: csv
+    - run: add_resource
+      parameters:
+        name: 'house-9'
+        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_9.csv'
+        format: csv
+    - run: add_resource
+      parameters:
+        name: 'house-10'
+        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_10.csv'
+        format: csv
+    - run: add_resource
+      parameters:
+        name: 'house-11'
+        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_11.csv'
+        format: csv
+    - run: add_resource
+      parameters:
+        name: 'house-12'
+        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_12.csv'
+        format: csv
+    - run: add_resource
+      parameters:
+        name: 'house-13'
+        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_13.csv'
+        format: csv
+    - run: add_resource
+      parameters:
+        name: 'house-15'
+        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_15.csv'
+        format: csv
+    - run: add_resource
+      parameters:
+        name: 'house-16'
+        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_16.csv'
+        format: csv
+    - run: add_resource
+      parameters:
+        name: 'house-17'
+        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_17.csv'
+        format: csv
+    - run: add_resource
+      parameters:
+        name: 'house-18'
+        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_18.csv'
+        format: csv
+    - run: add_resource
+      parameters:
+        name: 'house-19'
+        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_19.csv'
+        format: csv
+    - run: add_resource
+      parameters:
+        name: 'house-20'
+        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_20.csv'
+        format: csv
+    - run: add_resource
+      parameters:
+        name: 'house-21'
+        url: 'http://0.0.0.0:8000/refit-cleaned/archive/House_21.csv'
+        format: csv
+    - run: stream_remote_resources
+    - run: set_types
+      parameters:
+        resources: "house-[0-9]{1,2}"
+        types:
+          "Time":
+            type: datetime
+            format: "fmt:%Y-%m-%d %H:%M:%S"
+          Unix:
+            type: integer
+          Aggregate:
+            type: integer
+          "Appliance[1-9]":
+            type: integer
+    - run: .._custom_processors.update.modify_descriptions
+      parameters:
+        resources: 'house-1'
+        descriptions:
+          Appliance1:
+            Fridge
+          Appliance2:
+            Chest Freezer
+          Appliance3:
+            Upright Freezer
+          Appliance4:
+            Tumble Dryer
+          Appliance5:
+            Washing Machine
+          Appliance6:
+            Dishwasher
+          Appliance7:
+            Computer Site
+          Appliance8:
+            Television Site
+          Appliance9:
+            Electric Heater
+    - run: dump.to_path
+      parameters:
+          out-path: ../_datasets/refit-cleaned
+    - run: .._custom_processors.dump.to_aws
+      parameters:
+         bucket: data.frictionlessdata.io
+         out-path: pilot-dm4t/datasets/refit-cleaned

@@ -1,23 +1,20 @@
+import boto3
 import os
 import shutil
 
 from datapackage_pipelines.lib.dump.dumper_base import CSVDumper
 
-
-class PathDumper(CSVDumper):
+class AWSDumper(CSVDumper):
 
     def initialize(self, params):
-        super(PathDumper, self).initialize(params)
+        super(AWSDumper, self).initialize(params)
         self.out_path = params.get('out-path', '.')
-        PathDumper.__makedirs(self.out_path)
+        self.bucket = params.get('bucket')
+        self.s3 = boto3.resource('s3')
 
     def write_file_to_output(self, filename, path):
         path = os.path.join(self.out_path, path)
-
-        path_part = os.path.dirname(path)
-        PathDumper.__makedirs(path_part)
-
-        shutil.move(filename, path)
+        self.s3.meta.client.upload_file(filename, self.bucket, path)
 
     @staticmethod
     def __makedirs(path):
@@ -25,4 +22,4 @@ class PathDumper(CSVDumper):
             os.makedirs(path)
 
 
-PathDumper()()
+AWSDumper()()
