@@ -1,0 +1,39 @@
+enliten:
+  pipeline:
+    - run: add_metadata
+      parameters:
+        name: 'enliten'
+        title: 'ENLITEN'
+        homepage: 'http://www.cs.bath.ac.uk/enliten/'
+        temporal:
+          name: 'Data Collected'
+          start: '2013-10-01'
+          end: '2015-06-30'
+    - parameters:
+        name: humidity
+        table: humidity
+        url: mysql://root@localhost/enliten
+      run: add_resource
+    - run: stream_remote_resources
+    - run: set_types
+      parameters:
+        resources: humidity
+        types:
+          '_id':
+            type: integer
+          device:
+            type: integer
+          sensor:
+            type: integer
+          humidity:
+            type: number
+          timestamp:
+            type: datetime
+            format: 'fmt:%Y-%m-%dT%H:%M:%S'
+    - run: .._custom_processors.dump.to_aws
+      parameters:
+        bucket: data.frictionlessdata.io
+        out-path: pilot-dm4t/datasets/enliten
+    - run: dump.to_path
+      parameters:
+        out-path: ../_datasets/enliten
