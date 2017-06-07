@@ -568,7 +568,3 @@ refit-cleaned:
     - run: dump.to_path
       parameters:
           out-path: ../_datasets/refit-cleaned
-    - run: .._custom_processors.dump.to_aws
-      parameters:
-         bucket: data.frictionlessdata.io
-         out-path: pilot-dm4t/datasets/refit-cleaned
