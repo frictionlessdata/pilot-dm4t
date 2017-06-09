@@ -9,12 +9,92 @@ enliten:
           name: 'Data Collected'
           start: '2013-10-01'
           end: '2015-06-30'
-    - parameters:
+    - run: add_resource
+      parameters:
+        name: pir
+        table: pir
+        url: mysql://root@localhost/enlitentest
+    - run: add_resource
+      parameters:
+        name: power
+        table: power
+        url: mysql://root@localhost/enlitentest
+    - run: add_resource
+      parameters:
+        name: light
+        table: light
+        url: mysql://root@localhost/enlitentest
+    - run: add_resource
+      parameters:
         name: humidity
         table: humidity
-        url: mysql://root@localhost/enliten
-      run: add_resource
+        url: mysql://root@localhost/enlitentest
+    - run: add_resource
+      parameters:
+        name: temperature
+        table: temperature
+        url: mysql://root@localhost/enlitentest
+    - run: add_resource
+      parameters:
+        name: co2
+        table: co2
+        url: mysql://root@localhost/enlitentest
+    - run: add_resource
+      parameters:
+        name: sound
+        table: sound
+        url: mysql://root@localhost/enlitentest
+    - run: add_resource
+      parameters:
+        name: gas
+        table: gas
+        url: mysql://root@localhost/enlitentest
     - run: stream_remote_resources
+    - run: set_types
+      parameters:
+        resources: pir
+        types:
+          '_id':
+            type: integer
+          device:
+            type: integer
+          event:
+            type: boolean
+          timestamp:
+            type: datetime
+            format: 'fmt:%Y-%m-%dT%H:%M:%S'
+          sensor:
+            type: integer
+    - run: set_types
+      parameters:
+        resources: co2
+        types:
+          '_id':
+            type: integer
+          device:
+            type: integer
+          sensor:
+            type: integer
+          value:
+            type: integer
+          timestamp:
+            type: datetime
+            format: 'fmt:%Y-%m-%dT%H:%M:%S'
+    - run: set_types
+      parameters:
+        resources: gas
+        types:
+          '_id':
+            type: integer
+          device:
+            type: integer
+          value:
+            type: number
+          timestamp:
+            type: datetime
+            format: 'fmt:%Y-%m-%dT%H:%M:%S'
+          sensor:
+            type: integer
     - run: set_types
       parameters:
         resources: humidity
@@ -30,10 +110,76 @@ enliten:
           timestamp:
             type: datetime
             format: 'fmt:%Y-%m-%dT%H:%M:%S'
+    - run: set_types
+      parameters:
+        resources: light
+        types:
+          '_id':
+            type: integer
+          device:
+            type: integer
+          sensor:
+            type: integer
+          value:
+            type: integer
+          timestamp:
+            type: datetime
+            format: 'fmt:%Y-%m-%dT%H:%M:%S'
+    - run: set_types
+      parameters:
+        resources: power
+        types:
+          '_id':
+            type: integer
+          device:
+            type: integer
+          sensor:
+            type: integer
+          avg_power:
+            type: number
+          timestamp:
+            type: datetime
+            format: 'fmt:%Y-%m-%dT%H:%M:%S'
+          min_power:
+            type: number
+          max_power:
+            type: number
+    - run: set_types
+      parameters:
+        resources: sound
+        types:
+          '_id':
+            type: integer
+          device:
+            type: integer
+          sensor:
+            type: integer
+          mean_vol:
+            type: number
+          timestamp:
+            type: datetime
+            format: 'fmt:%Y-%m-%dT%H:%M:%S'
+          peak_vol:
+            type: number
+    - run: set_types
+      parameters:
+        resources: temperature
+        types:
+          '_id':
+            type: integer
+          device:
+            type: integer
+          temperature:
+            type: number
+          timestamp:
+            type: datetime
+            format: 'fmt:%Y-%m-%dT%H:%M:%S'
+          sensor:
+            type: integer
     - run: .._custom_processors.dump.to_aws
       parameters:
-        bucket: data.frictionlessdata.io
-        out-path: pilot-dm4t/datasets/enliten
+         bucket: data.frictionlessdata.io
+         out-path: pilot-dm4t/datasets/enliten
     - run: dump.to_path
       parameters:
         out-path: ../_datasets/enliten

@@ -4,11 +4,16 @@ enliten.sql:
 import: archive/enliten.sql
 	mysql -uroot -e "DROP DATABASE IF EXISTS enliten; CREATE DATABASE enliten;"
 	mysql -uroot enliten < archive/enliten.sql
-	# mysql -uroot enliten -e "ALTER TABLE HTCs MODIFY HTCs.default TINYINT(1);"
-	# mysql -uroot enliten -e "ALTER TABLE login_attempts MODIFY ip_address VARCHAR(255);"
-	# mysql -uroot enliten -e "DELETE FROM users;" # personally identifiable info
-	# mysql -uroot enliten -e "ALTER TABLE users MODIFY ip_address VARCHAR(255);"
-	# mysql -uroot enliten -e "ALTER TABLE whomes MODIFY code VARCHAR(255);"
+	mysql -uroot -e "DROP DATABASE IF EXISTS enlitentest; CREATE DATABASE enlitentest;"
+	mysql -uroot enlitentest < archive/enliten.sql
+	mysql -uroot enlitentest -e "DELETE FROM pir WHERE pir._id > 10000;"
+	mysql -uroot enlitentest -e "DELETE FROM power WHERE power._id > 10000;"
+	mysql -uroot enlitentest -e "DELETE FROM light WHERE light._id > 10000;"
+	mysql -uroot enlitentest -e "DELETE FROM humidity WHERE humidity._id > 10000;"
+	mysql -uroot enlitentest -e "DELETE FROM temperature WHERE temperature._id > 10000;"
+	mysql -uroot enlitentest -e "DELETE FROM co2 WHERE co2._id > 10000;"
+	mysql -uroot enlitentest -e "DELETE FROM sound WHERE sound._id > 10000;"
+	mysql -uroot enlitentest -e "DELETE FROM gas WHERE gas._id > 10000;"
 
 # For testing the schema
 
