@@ -11,44 +11,49 @@ enliten:
           end: '2015-06-30'
     - run: add_resource
       parameters:
+        name: sensor
+        table: sensor
+        url: mysql://root@localhost/enliten
+    - run: add_resource
+      parameters:
         name: pir
         table: pir
-        url: mysql://root@localhost/enlitentest
+        url: mysql://root@localhost/enliten
     - run: add_resource
       parameters:
         name: power
         table: power
-        url: mysql://root@localhost/enlitentest
+        url: mysql://root@localhost/enliten
     - run: add_resource
       parameters:
         name: light
         table: light
-        url: mysql://root@localhost/enlitentest
+        url: mysql://root@localhost/enliten
     - run: add_resource
       parameters:
         name: humidity
         table: humidity
-        url: mysql://root@localhost/enlitentest
+        url: mysql://root@localhost/enliten
     - run: add_resource
       parameters:
         name: temperature
         table: temperature
-        url: mysql://root@localhost/enlitentest
+        url: mysql://root@localhost/enliten
     - run: add_resource
       parameters:
         name: co2
         table: co2
-        url: mysql://root@localhost/enlitentest
+        url: mysql://root@localhost/enliten
     - run: add_resource
       parameters:
         name: sound
         table: sound
-        url: mysql://root@localhost/enlitentest
+        url: mysql://root@localhost/enliten
     - run: add_resource
       parameters:
         name: gas
         table: gas
-        url: mysql://root@localhost/enlitentest
+        url: mysql://root@localhost/enliten
     - run: stream_remote_resources
     - run: set_types
       parameters:
@@ -59,7 +64,7 @@ enliten:
           device:
             type: integer
           event:
-            type: boolean
+            type: integer
           timestamp:
             type: datetime
             format: 'fmt:%Y-%m-%dT%H:%M:%S'
@@ -176,10 +181,23 @@ enliten:
             format: 'fmt:%Y-%m-%dT%H:%M:%S'
           sensor:
             type: integer
-    - run: .._custom_processors.dump.to_aws
+    - run: join
       parameters:
-         bucket: data.frictionlessdata.io
-         out-path: pilot-dm4t/datasets/enliten
+        source:
+          name: sensor
+          key: ["_id"]
+          delete: yes
+        target:
+          name: humidity
+          key: ["sensor"]
+        fields:
+          sensor_model:
+            name: "model"
+        full: false
+    # - run: .._custom_processors.dump.to_aws
+    #   parameters:
+    #      bucket: data.frictionlessdata.io
+    #      out-path: pilot-dm4t/datasets/enliten
     - run: dump.to_path
       parameters:
         out-path: ../_datasets/enliten
