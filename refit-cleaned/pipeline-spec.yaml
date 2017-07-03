@@ -14,102 +14,102 @@ refit-cleaned:
     - run: add_resource
       parameters:
         name: 'house-1'
-        url: '../refit-cleaned/archive/House_1.csv'
+        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_1.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-2'
-        url: '../refit-cleaned/archive/House_2.csv'
+        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_2.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-3'
-        url: '../refit-cleaned/archive/House_3.csv'
+        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_3.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-4'
-        url: '../refit-cleaned/archive/House_4.csv'
+        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_4.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-5'
-        url: '../refit-cleaned/archive/House_5.csv'
+        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_5.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-6'
-        url: '../refit-cleaned/archive/House_6.csv'
+        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_6.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-7'
-        url: '../refit-cleaned/archive/House_7.csv'
+        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_7.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-8'
-        url: '../refit-cleaned/archive/House_8.csv'
+        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_8.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-9'
-        url: '../refit-cleaned/archive/House_9.csv'
+        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_9.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-10'
-        url: '../refit-cleaned/archive/House_10.csv'
+        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_10.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-11'
-        url: '../refit-cleaned/archive/House_11.csv'
+        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_11.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-12'
-        url: '../refit-cleaned/archive/House_12.csv'
+        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_12.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-13'
-        url: '../refit-cleaned/archive/House_13.csv'
+        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_13.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-15'
-        url: '../refit-cleaned/archive/House_15.csv'
+        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_15.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-16'
-        url: '../refit-cleaned/archive/House_16.csv'
+        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_16.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-17'
-        url: '../refit-cleaned/archive/House_17.csv'
+        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_17.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-18'
-        url: '../refit-cleaned/archive/House_18.csv'
+        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_18.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-19'
-        url: '../refit-cleaned/archive/House_19.csv'
+        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_19.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-20'
-        url: '../refit-cleaned/archive/House_20.csv'
+        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_20.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-21'
-        url: '../refit-cleaned/archive/House_21.csv'
+        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_21.csv'
         format: csv
     - run: stream_remote_resources
     - run: set_types
