@@ -13,47 +13,47 @@ enliten:
       parameters:
         name: sensor
         table: sensor
-        url: mysql://root@localhost/enliten
+        url: 'env://DPP_DB_ENGINE_INPUT'
     - run: add_resource
       parameters:
         name: pir
         table: pir
-        url: mysql://root@localhost/enliten
+        url: 'env://DPP_DB_ENGINE_INPUT'
     - run: add_resource
       parameters:
         name: power
         table: power
-        url: mysql://root@localhost/enliten
+        url: 'env://DPP_DB_ENGINE_INPUT'
     - run: add_resource
       parameters:
         name: light
         table: light
-        url: mysql://root@localhost/enliten
+        url: 'env://DPP_DB_ENGINE_INPUT'
     - run: add_resource
       parameters:
         name: humidity
         table: humidity
-        url: mysql://root@localhost/enliten
+        url: 'env://DPP_DB_ENGINE_INPUT'
     - run: add_resource
       parameters:
         name: temperature
         table: temperature
-        url: mysql://root@localhost/enliten
+        url: 'env://DPP_DB_ENGINE_INPUT'
     - run: add_resource
       parameters:
         name: co2
         table: co2
-        url: mysql://root@localhost/enliten
+        url: 'env://DPP_DB_ENGINE_INPUT'
     - run: add_resource
       parameters:
         name: sound
         table: sound
-        url: mysql://root@localhost/enliten
+        url: 'env://DPP_DB_ENGINE_INPUT'
     - run: add_resource
       parameters:
         name: gas
         table: gas
-        url: mysql://root@localhost/enliten
+        url: 'env://DPP_DB_ENGINE_INPUT'
     - run: stream_remote_resources
     - run: set_types
       parameters:
