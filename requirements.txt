@@ -1,5 +1,3 @@
-# git+https://github.com/danfowler/datapackage-pipelines.git
 datapackage-pipelines
 mysqlclient==1.3.10
-# jupyter==1.0.0
-# boto3
+boto3
