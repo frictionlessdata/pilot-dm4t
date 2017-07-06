@@ -16,10 +16,4 @@ class AWSDumper(CSVDumper):
         path = os.path.join(self.out_path, path)
         self.s3.meta.client.upload_file(filename, self.bucket, path)
 
-    @staticmethod
-    def __makedirs(path):
-        if not os.path.exists(path):
-            os.makedirs(path)
-
-
 AWSDumper()()

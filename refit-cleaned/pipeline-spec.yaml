@@ -125,7 +125,7 @@ refit-cleaned:
             type: integer
           "Appliance[1-9]":
             type: integer
-    - run: .._custom_processors.update.modify_descriptions
+    - run: .._processors.update.modify_descriptions
       parameters:
         resources: house-1
         descriptions:
@@ -147,7 +147,7 @@ refit-cleaned:
             description: Television Site
           Appliance9:
             description: Electric Heater
-    - run: .._custom_processors.update.modify_descriptions
+    - run: .._processors.update.modify_descriptions
       parameters:
         resources: house-2
         descriptions:
@@ -169,7 +169,7 @@ refit-cleaned:
             description: Kettle
           Appliance9:
             description: Oven Extractor Fan
-    - run: .._custom_processors.update.modify_descriptions
+    - run: .._processors.update.modify_descriptions
       parameters:
         resources: house-3
         descriptions:
@@ -191,7 +191,7 @@ refit-cleaned:
             description: Microwave
           Appliance9:
             description: Kettle
-    - run: .._custom_processors.update.modify_descriptions
+    - run: .._processors.update.modify_descriptions
       parameters:
         resources: house-4
         descriptions:
@@ -213,7 +213,7 @@ refit-cleaned:
             description: Microwave
           Appliance9:
             description: Kettle
-    - run: .._custom_processors.update.modify_descriptions
+    - run: .._processors.update.modify_descriptions
       parameters:
         resources: house-5
         descriptions:
@@ -235,7 +235,7 @@ refit-cleaned:
             description: Kettle
           Appliance9:
             description: Toaster
-    - run: .._custom_processors.update.modify_descriptions
+    - run: .._processors.update.modify_descriptions
       parameters:
         resources: house-6
         descriptions:
@@ -257,7 +257,7 @@ refit-cleaned:
             description: Toaster
           Appliance9:
             description: PGM Computer
-    - run: .._custom_processors.update.modify_descriptions
+    - run: .._processors.update.modify_descriptions
       parameters:
         resources: house-7
         descriptions:
@@ -279,7 +279,7 @@ refit-cleaned:
             description: Toaster
           Appliance9:
             description: Kettle
-    - run: .._custom_processors.update.modify_descriptions
+    - run: .._processors.update.modify_descriptions
       parameters:
         resources: house-8
         descriptions:
@@ -301,7 +301,7 @@ refit-cleaned:
             description: Microwave
           Appliance9:
             description: Kettle
-    - run: .._custom_processors.update.modify_descriptions
+    - run: .._processors.update.modify_descriptions
       parameters:
         resources: house-9
         descriptions:
@@ -323,7 +323,7 @@ refit-cleaned:
             description: Hi-Fi
           Appliance9:
             description: Electric Heater
-    - run: .._custom_processors.update.modify_descriptions
+    - run: .._processors.update.modify_descriptions
       parameters:
         resources: house-10
         descriptions:
@@ -345,7 +345,7 @@ refit-cleaned:
             description: Microwave
           Appliance9:
             description: Kenwood KMix
-    - run: .._custom_processors.update.modify_descriptions
+    - run: .._processors.update.modify_descriptions
       parameters:
         resources: house-11
         descriptions:
@@ -367,7 +367,7 @@ refit-cleaned:
             description: Router
           Appliance9:
             description: Hi-Fi
-    - run: .._custom_processors.update.modify_descriptions
+    - run: .._processors.update.modify_descriptions
       parameters:
         resources: house-12
         descriptions:
@@ -389,7 +389,7 @@ refit-cleaned:
             description: Not Used
           Appliance9:
             description: Not Used
-    - run: .._custom_processors.update.modify_descriptions
+    - run: .._processors.update.modify_descriptions
       parameters:
         resources: house-13
         descriptions:
@@ -411,7 +411,7 @@ refit-cleaned:
             description: Microwave
           Appliance9:
             description: Kettle
-    - run: .._custom_processors.update.modify_descriptions
+    - run: .._processors.update.modify_descriptions
       parameters:
         resources: house-15
         descriptions:
@@ -433,7 +433,7 @@ refit-cleaned:
             description: Kettle
           Appliance9:
             description: Toaster
-    - run: .._custom_processors.update.modify_descriptions
+    - run: .._processors.update.modify_descriptions
       parameters:
         resources: house-16
         descriptions:
@@ -455,7 +455,7 @@ refit-cleaned:
             description: Television Site
           Appliance9:
             description: Dehumidifier/Heater
-    - run: .._custom_processors.update.modify_descriptions
+    - run: .._processors.update.modify_descriptions
       parameters:
         resources: house-17
         descriptions:
@@ -477,7 +477,7 @@ refit-cleaned:
             description: Kettle
           Appliance9:
             description: Plug Site (Bedroom)
-    - run: .._custom_processors.update.modify_descriptions
+    - run: .._processors.update.modify_descriptions
       parameters:
         resources: house-18
         descriptions:
@@ -499,7 +499,7 @@ refit-cleaned:
             description: Television Site
           Appliance9:
             description: Microwave
-    - run: .._custom_processors.update.modify_descriptions
+    - run: .._processors.update.modify_descriptions
       parameters:
         resources: house-19
         descriptions:
@@ -521,7 +521,7 @@ refit-cleaned:
             description: Lamp (80Watts)
           Appliance9:
             description: Hi-Fi
-    - run: .._custom_processors.update.modify_descriptions
+    - run: .._processors.update.modify_descriptions
       parameters:
         resources: house-20
         descriptions:
@@ -543,7 +543,7 @@ refit-cleaned:
             description: Microwave
           Appliance9:
             description: Kettle
-    - run: .._custom_processors.update.modify_descriptions
+    - run: .._processors.update.modify_descriptions
       parameters:
         resources: house-21
         descriptions:
@@ -568,3 +568,7 @@ refit-cleaned:
     - run: dump.to_path
       parameters:
           out-path: ../_datasets/refit-cleaned
+    - run: .._processors.dump.to_aws
+      parameters:
+         bucket: data.frictionlessdata.io
+         out-path: pilot-dm4t/datasets/refit-cleaned-example
