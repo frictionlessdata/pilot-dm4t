@@ -1,3 +1,5 @@
+# Refit Cleaned
+
 refit-cleaned:
   pipeline:
     - run: add_metadata
@@ -8,108 +10,128 @@ refit-cleaned:
         description: Collection of this dataset was supported by the Engineering and Physical Sciences Research Council (EPSRC) via the project entitled Personalised Retrofit Decision Support Tools for UK Homes using Smart Home Technology (REFIT), which is a collaboration among the Universities of Strathclyde, Loughborough and East Anglia. The dataset includes data from 20 households from the Loughborough area over the period 2013 - 2015. Additional information about REFIT is available from www.refitsmarthomes.org.
         sources:
           -
-            name: 'REFIT: Electrical Load Measurements (Cleaned)'
+            title: 'REFIT: Electrical Load Measurements (Cleaned)'
             web: 'https://pure.strath.ac.uk/portal/en/datasets/refit-electrical-load-measurements-cleaned(9ab14b0e-19ac-4279-938f-27f643078cec).html'
             email: researchdataproject@strath.ac.uk
     - run: add_resource
       parameters:
         name: 'house-1'
-        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_1.csv'
+        # url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_1.csv'
+        url: 'datasets/refit-cleaned/House_1.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-2'
-        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_2.csv'
+        # url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_2.csv'
+        url: 'datasets/refit-cleaned/House_2.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-3'
-        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_3.csv'
+        # url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_3.csv'
+        url: 'datasets/refit-cleaned/House_3.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-4'
-        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_4.csv'
+        # url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_4.csv'
+        url: 'datasets/refit-cleaned/House_4.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-5'
-        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_5.csv'
+        # url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_5.csv'
+        url: 'datasets/refit-cleaned/House_5.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-6'
-        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_6.csv'
+        # url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_6.csv'
+        url: 'datasets/refit-cleaned/House_6.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-7'
-        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_7.csv'
+        # url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_7.csv'
+        url: 'datasets/refit-cleaned/House_7.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-8'
-        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_8.csv'
+        # url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_8.csv'
+        url: 'datasets/refit-cleaned/House_8.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-9'
-        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_9.csv'
+        # url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_9.csv'
+        url: 'datasets/refit-cleaned/House_9.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-10'
-        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_10.csv'
+        # url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_10.csv'
+        url: 'datasets/refit-cleaned/House_10.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-11'
-        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_11.csv'
+        # url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_11.csv'
+        url: 'datasets/refit-cleaned/House_11.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-12'
-        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_12.csv'
+        # url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_12.csv'
+        url: 'datasets/refit-cleaned/House_12.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-13'
-        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_13.csv'
+        # url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_13.csv'
+        url: 'datasets/refit-cleaned/House_13.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-15'
-        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_15.csv'
+        # url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_15.csv'
+        url: 'datasets/refit-cleaned/House_15.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-16'
-        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_16.csv'
+        # url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_16.csv'
+        url: 'datasets/refit-cleaned/House_16.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-17'
-        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_17.csv'
+        # url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_17.csv'
+        url: 'datasets/refit-cleaned/House_17.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-18'
-        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_18.csv'
+        # url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_18.csv'
+        url: 'datasets/refit-cleaned/House_18.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-19'
-        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_19.csv'
+        # url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_19.csv'
+        url: 'datasets/refit-cleaned/House_19.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-20'
-        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_20.csv'
+        # url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_20.csv'
+        url: 'datasets/refit-cleaned/House_20.csv'
         format: csv
     - run: add_resource
       parameters:
         name: 'house-21'
-        url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_21.csv'
+        # url: 'http://data.frictionlessdata.io.s3.amazonaws.com/pilot-dm4t-data/refit-cleaned/data/House_21.csv'
+        url: 'datasets/refit-cleaned/House_21.csv'
         format: csv
     - run: stream_remote_resources
     - run: set_types
@@ -125,7 +147,7 @@ refit-cleaned:
             type: integer
           "Appliance[1-9]":
             type: integer
-    - run: .._processors.update.modify_descriptions
+    - run: processors.modify_descriptions
       parameters:
         resources: house-1
         descriptions:
@@ -147,7 +169,7 @@ refit-cleaned:
             description: Television Site
           Appliance9:
             description: Electric Heater
-    - run: .._processors.update.modify_descriptions
+    - run: processors.modify_descriptions
       parameters:
         resources: house-2
         descriptions:
@@ -169,7 +191,7 @@ refit-cleaned:
             description: Kettle
           Appliance9:
             description: Oven Extractor Fan
-    - run: .._processors.update.modify_descriptions
+    - run: processors.modify_descriptions
       parameters:
         resources: house-3
         descriptions:
@@ -191,7 +213,7 @@ refit-cleaned:
             description: Microwave
           Appliance9:
             description: Kettle
-    - run: .._processors.update.modify_descriptions
+    - run: processors.modify_descriptions
       parameters:
         resources: house-4
         descriptions:
@@ -213,7 +235,7 @@ refit-cleaned:
             description: Microwave
           Appliance9:
             description: Kettle
-    - run: .._processors.update.modify_descriptions
+    - run: processors.modify_descriptions
       parameters:
         resources: house-5
         descriptions:
@@ -235,7 +257,7 @@ refit-cleaned:
             description: Kettle
           Appliance9:
             description: Toaster
-    - run: .._processors.update.modify_descriptions
+    - run: processors.modify_descriptions
       parameters:
         resources: house-6
         descriptions:
@@ -257,7 +279,7 @@ refit-cleaned:
             description: Toaster
           Appliance9:
             description: PGM Computer
-    - run: .._processors.update.modify_descriptions
+    - run: processors.modify_descriptions
       parameters:
         resources: house-7
         descriptions:
@@ -279,7 +301,7 @@ refit-cleaned:
             description: Toaster
           Appliance9:
             description: Kettle
-    - run: .._processors.update.modify_descriptions
+    - run: processors.modify_descriptions
       parameters:
         resources: house-8
         descriptions:
@@ -301,7 +323,7 @@ refit-cleaned:
             description: Microwave
           Appliance9:
             description: Kettle
-    - run: .._processors.update.modify_descriptions
+    - run: processors.modify_descriptions
       parameters:
         resources: house-9
         descriptions:
@@ -323,7 +345,7 @@ refit-cleaned:
             description: Hi-Fi
           Appliance9:
             description: Electric Heater
-    - run: .._processors.update.modify_descriptions
+    - run: processors.modify_descriptions
       parameters:
         resources: house-10
         descriptions:
@@ -345,7 +367,7 @@ refit-cleaned:
             description: Microwave
           Appliance9:
             description: Kenwood KMix
-    - run: .._processors.update.modify_descriptions
+    - run: processors.modify_descriptions
       parameters:
         resources: house-11
         descriptions:
@@ -367,7 +389,7 @@ refit-cleaned:
             description: Router
           Appliance9:
             description: Hi-Fi
-    - run: .._processors.update.modify_descriptions
+    - run: processors.modify_descriptions
       parameters:
         resources: house-12
         descriptions:
@@ -389,7 +411,7 @@ refit-cleaned:
             description: Not Used
           Appliance9:
             description: Not Used
-    - run: .._processors.update.modify_descriptions
+    - run: processors.modify_descriptions
       parameters:
         resources: house-13
         descriptions:
@@ -411,7 +433,7 @@ refit-cleaned:
             description: Microwave
           Appliance9:
             description: Kettle
-    - run: .._processors.update.modify_descriptions
+    - run: processors.modify_descriptions
       parameters:
         resources: house-15
         descriptions:
@@ -433,7 +455,7 @@ refit-cleaned:
             description: Kettle
           Appliance9:
             description: Toaster
-    - run: .._processors.update.modify_descriptions
+    - run: processors.modify_descriptions
       parameters:
         resources: house-16
         descriptions:
@@ -455,7 +477,7 @@ refit-cleaned:
             description: Television Site
           Appliance9:
             description: Dehumidifier/Heater
-    - run: .._processors.update.modify_descriptions
+    - run: processors.modify_descriptions
       parameters:
         resources: house-17
         descriptions:
@@ -477,7 +499,7 @@ refit-cleaned:
             description: Kettle
           Appliance9:
             description: Plug Site (Bedroom)
-    - run: .._processors.update.modify_descriptions
+    - run: processors.modify_descriptions
       parameters:
         resources: house-18
         descriptions:
@@ -499,7 +521,7 @@ refit-cleaned:
             description: Television Site
           Appliance9:
             description: Microwave
-    - run: .._processors.update.modify_descriptions
+    - run: processors.modify_descriptions
       parameters:
         resources: house-19
         descriptions:
@@ -521,7 +543,7 @@ refit-cleaned:
             description: Lamp (80Watts)
           Appliance9:
             description: Hi-Fi
-    - run: .._processors.update.modify_descriptions
+    - run: processors.modify_descriptions
       parameters:
         resources: house-20
         descriptions:
@@ -543,7 +565,7 @@ refit-cleaned:
             description: Microwave
           Appliance9:
             description: Kettle
-    - run: .._processors.update.modify_descriptions
+    - run: processors.modify_descriptions
       parameters:
         resources: house-21
         descriptions:
@@ -567,8 +589,55 @@ refit-cleaned:
             description: Pond Pump
     - run: dump.to_path
       parameters:
-          out-path: ../_datasets/refit-cleaned
-    - run: .._processors.dump.to_aws
+          out-path: packages/refit-cleaned
+    - run: aws.dump.to_s3
       parameters:
-         bucket: data.frictionlessdata.io
-         out-path: pilot-dm4t/datasets/refit-cleaned-example
+        bucket: pilot-dm4t
+        path: pilot-dm4t/packages/refit-cleaned
+
+
+# Enliten
+
+enliten:
+  pipeline:
+    - run: add_metadata
+      parameters:
+        name: 'enliten'
+        title: 'ENLITEN'
+        homepage: 'http://www.cs.bath.ac.uk/enliten/'
+        temporal:
+          name: 'Data Collected'
+          start: '2013-10-01'
+          end: '2015-06-30'
+    - run: add_resource
+      parameters:
+        name: power
+        url: 'datasets/enliten/power.tsv'
+        format: tsv
+    - run: stream_remote_resources
+    - run: set_types
+      parameters:
+        resources: power
+        types:
+          '_id':
+            type: integer
+          device:
+            type: integer
+          sensor:
+            type: integer
+          avg_power:
+            type: number
+          timestamp:
+            type: datetime
+            format: '%Y-%m-%d %H:%M:%S'
+          min_power:
+            type: number
+          max_power:
+            type: number
+    - run: dump.to_path
+      parameters:
+        out-path: packages/enliten
+    - run: aws.dump.to_s3
+      parameters:
+        bucket: pilot-dm4t
+        path: pilot-dm4t/packages/enliten

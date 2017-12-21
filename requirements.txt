@@ -1,3 +1,4 @@
-git+https://github.com/danfowler/datapackage-pipelines.git
-mysqlclient==1.3.10
-boto3
+datapackage-pipelines
+datapackage-pipelines-aws
+tableschema-elasticsearch
+elasticsearch

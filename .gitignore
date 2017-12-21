@@ -9,3 +9,7 @@
 .dpp.db
 /_datasets
 .env
+datapackage_pipelines
+datapackage_pipelines_aws
+datasets/
+packages/
